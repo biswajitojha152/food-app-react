@@ -9,7 +9,7 @@ import MealContext from '../../store';
 const Modal = () =>{
     const ctx = useContext(MealContext);
     return(
-        <Backdrop open={true}>
+        <Backdrop open={true} className={classes.backdrop}>
             <Card className={classes.modal}>
             <Cart />
             </Card>

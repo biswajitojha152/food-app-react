@@ -3,14 +3,17 @@ import classes from './Form.module.css';
 
 import MealContext from '../../../../../store/index';
 
-const Form = ({id}) =>{
+const Form = ({id, addToCart}) =>{
     const refContainer = useRef(null);
     const ctx = useContext(MealContext);
     
     const handleSubmit = (e) =>{
         e.preventDefault();
         ctx.setTotalItems((prevItems)=> prevItems+parseInt(refContainer.current.value));
+
+        addToCart(refContainer.current.value);
     }
+
     return(
         <form className={classes.form} onSubmit={(e)=>handleSubmit(e)}>
              <div className={classes.control}>

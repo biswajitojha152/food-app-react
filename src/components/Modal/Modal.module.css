@@ -1,3 +1,7 @@
+.backdrop{
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .modal{
     position: absolute;
     top: 7rem;

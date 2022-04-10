@@ -1,3 +1,8 @@
+.scroll{
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
 .total-section {
     display: flex;
     align-items: center;
