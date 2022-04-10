@@ -1,0 +1,14 @@
+.meal-items{
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 10rem auto 2rem auto;
+    padding: 2rem;
+    box-shadow: var(--light-shadow);
+    background-color: var(--clr-white);
+}
+
+@media (min-width: 607px) {
+    .meal-items{
+        margin-top: 6rem;
+    }
+}

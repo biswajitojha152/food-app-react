@@ -1,0 +1,24 @@
+.card-main{
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: var(--fixed-width-primary);
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    text-align: center;
+}
+
+.card-main h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.para-one, .para-two{
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
